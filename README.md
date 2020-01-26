@@ -12,3 +12,9 @@ to transfer data over a connectionless network and create an  mobile application
 A server-client design has been implemented. The server is our trained keras model which receives the images from the client and it sends back the recognized letter in Text format.
 The model is trained on an MNIST dataset present in csv format. The dataset format is patterned to match closely with the classic MNIST. Each training and test case represent a label (0-25) as a one-to-one map for each alphabetic letter A-Z (and no cases for 9=J or 25=Z because of gesture motions). Socket programming in python is implemented on server side to receive images and send the recognized letter. The client is an Mobile Application developed on Android Studio which also includes socket programming of java to send images to server and receive the recognized letter. The client clicks the images from an option given to capture hand through mobile camera.
 
+
+# About files:
+model.h5 and model.json : trained model
+server.ipynb: our server side python code
+Testnew: Client that is a mobile application created on Android Studio 
+
