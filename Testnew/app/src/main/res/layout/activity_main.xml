@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/whatsaap">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="50sp"
+        android:textSize="30dp"
+        android:id="@+id/text"
+        android:text="Letter"/>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send image"
+        android:id="@+id/add"
+        android:padding="15sp"
+        android:background="#43AB92"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click image"
+        android:padding="15sp"
+        android:background="#43AB92"
+        android:id="@+id/image"
+        android:layout_marginLeft="10dp"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="recieve"
+            android:padding="15sp"
+            android:background="#43AB92"
+            android:id="@+id/recieve"
+            android:layout_marginLeft="10dp"
+
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center"
+        android:layout_width="260sp"
+        android:layout_height="260sp"
+        android:id="@+id/capturedimage"
+        android:src="@drawable/image"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listen Again"
+        android:padding="5sp"
+        android:id="@+id/listen"
+        android:drawableEnd="@drawable/volume"
+        android:background="#43AB92"/>
+
+</LinearLayout>
