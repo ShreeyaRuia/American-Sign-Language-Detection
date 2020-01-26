@@ -13,7 +13,7 @@ A server-client design has been implemented. The server is our trained keras mod
 The model is trained on an MNIST dataset present in csv format. The dataset format is patterned to match closely with the classic MNIST. Each training and test case represent a label (0-25) as a one-to-one map for each alphabetic letter A-Z (and no cases for 9=J or 25=Z because of gesture motions). Socket programming in python is implemented on server side to receive images and send the recognized letter. The client is an Mobile Application developed on Android Studio which also includes socket programming of java to send images to server and receive the recognized letter. The client clicks the images from an option given to capture hand through mobile camera.
 
 ### About files:
-1.model.h5 and model.json : trained model
-2.server.ipynb: our server side python code
-3.Testnew: Client that is a mobile application created on Android Studio 
+1.  model.h5 and model.json : trained model
+2.  server.ipynb: our server side python code
+3.  Testnew: Client that is a mobile application created on Android Studio 
 
